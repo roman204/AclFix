@@ -26,7 +26,8 @@ class Multibyte_AclFix_Model_Observer extends Mage_Core_Model_Abstract {
 
         if (!$acl->has( $resourceName )) {
             if (!$adminSession->isAllowed( $resourceName )) {
-                $acl->allow( 'admin' );
+                $role = $adminSession->getUser()->getRole();
+                $acl->allow($role->getRoleType() . $role->getRoleId(), 'admin');
             }
         }
 
