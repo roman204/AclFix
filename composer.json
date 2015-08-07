@@ -1,0 +1,16 @@
+{
+  "name": "AclFix",
+  "description": "Magento module to Fix the new behavior of Mage_AdminHtml_Controller_Action since SUPEE-6285",
+  "license": "OSL-3.0",
+  "type": "magento-module",
+  "homepage": "http://www.multibyte.at/",
+  "require": {
+    "magento-hackathon/magento-composer-installer": "*"
+  },
+  "authors":[
+    {
+      "name":"Roman Huttere",
+      "email":"hallo@multibyte.at"
+    }
+  ]
+}
