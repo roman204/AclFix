@@ -1,5 +1,5 @@
 {
-  "name": "AclFix",
+  "name": "multibyte/aclfix",
   "description": "Magento module to Fix the new behavior of Mage_AdminHtml_Controller_Action since SUPEE-6285",
   "license": "OSL-3.0",
   "type": "magento-module",
